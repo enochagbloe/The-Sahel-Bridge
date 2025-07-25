@@ -43,8 +43,8 @@ const Hero = () => {
       >
         {/* Main heading */}
         <h1 className="font-display text-white text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Welcome to The 
-          <span className="block text-green-400">Sahel Bridge</span>
+          Welcome to
+          <span className="block text-green-400"> The Sahel Bridge</span>
         </h1>
 
         {/* Subheading */}

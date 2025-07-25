@@ -14,13 +14,13 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Pure African Harvest - Premium Natural Products",
+  title: "The Sahel Bridge - Premium Natural Products",
   description:
     "Discover sustainably sourced shea butter, shea nuts, cashews, and soybeans directly from African farmers. Experience the purity of nature with our organic agricultural products.",
   keywords:
     "shea butter, shea nuts, cashew, soybean, african products, organic, sustainable, natural",
   openGraph: {
-    title: "Pure African Harvest - Premium Natural Products",
+    title: "The Sahel Bridge - Premium Natural Products",
     description: "Sustainably sourced agricultural products from Africa",
     type: "website",
   },

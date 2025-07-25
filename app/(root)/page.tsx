@@ -9,9 +9,9 @@ const page = () => {
     <main>
       <Hero />
       <ProductsSection />
-      <CTA/>
-      <AboutFounders/>
-      <Footer/>
+      <AboutFounders />
+      <CTA />
+      <Footer />
     </main>
   );
 };

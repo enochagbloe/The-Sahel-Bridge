@@ -6,19 +6,27 @@ import ProductCard from './ProductCard'
 const products = [
   {
     title: "Premium Shea Butter",
-    description: "Grade A – Unrefined, Ivory/Yellowish Tint Cold-pressed and filtered for purity. Ideal for cosmetics, skincare, and pharmaceuticals. Moisture content <0.05%, free fatty acid ≤3%. No additives or preservatives."
+    description: "Grade A – Unrefined, Ivory/Yellowish Tint Cold-pressed and filtered for purity. Ideal for cosmetics, skincare, and pharmaceuticals. Moisture content <0.05%, free fatty acid ≤3%. No additives or preservatives.",
+    image: "/images/products/shea-butter.jpg",
+    imageAlt: "Premium Grade A Shea Butter in natural ivory color"
   },
   {
     title: "Organic Shea Nuts",
-    description: "Grade A – Cleaned, Sun-Dried, and Fully Matured Harvested from wild-grown trees in Ghana and Benin. Low moisture (<7%), high fat content, and minimal impurities (<0.5%). Suitable for processing into butter or further industrial use."
+    description: "Grade A – Cleaned, Sun-Dried, and Fully Matured Harvested from wild-grown trees in Ghana and Benin. Low moisture (<7%), high fat content, and minimal impurities (<0.5%). Suitable for processing into butter or further industrial use.",
+    image: "/images/products/shea-nuts.jpg",
+    imageAlt: "Organic Grade A shea nuts, cleaned and sun-dried"
   },
   {
     title: "Premium Cashews",
-    description: "WW320 – White Whole Grade, Premium Export Quality Uniform kernel size, creamy white colour, moisture <5%, and nut count per kg: 300–320. Ideal for roasting, confectionery, and retail packaging."
+    description: "WW320 – White Whole Grade, Premium Export Quality Uniform kernel size, creamy white colour, moisture <5%, and nut count per kg: 300–320. Ideal for roasting, confectionery, and retail packaging.",
+    image: "/images/products/cashews.jpg",
+    imageAlt: "Premium WW320 white whole cashews"
   },
   {
     title: "Organic Soybeans",
-    description: "Grade 1 – Non-GMO, Food and Feed Grade Sourced from smallholder farms in northern Ghana. Protein content ≥35%, moisture ≤12%, foreign matter ≤1%. High oil yield and suitable for human and animal consumption"
+    description: "Grade 1 – Non-GMO, Food and Feed Grade Sourced from smallholder farms in northern Ghana. Protein content ≥35%, moisture ≤12%, foreign matter ≤1%. High oil yield and suitable for human and animal consumption",
+    image: "/images/products/soybeans.jpg",
+    imageAlt: "Organic Grade 1 non-GMO soybeans"
   }
 ]
 
@@ -82,7 +90,7 @@ export default function ProductsSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-20 bg-white">
+    <section id="products" ref={sectionRef} className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header with Animation */}
         <div 
@@ -120,6 +128,8 @@ export default function ProductsSection() {
               <ProductCard
                 title={product.title}
                 description={product.description}
+                imageUrl={product.image}
+                imageAlt={product.imageAlt}
               />
             </div>
           ))}
