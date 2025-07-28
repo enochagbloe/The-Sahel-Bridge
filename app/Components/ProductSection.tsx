@@ -19,13 +19,13 @@ const products = [
   {
     title: "Premium Cashews",
     description: "WW320 – White Whole Grade, Premium Export Quality Uniform kernel size, creamy white colour, moisture <5%, and nut count per kg: 300–320. Ideal for roasting, confectionery, and retail packaging.",
-    image: "/images/products/cashews.jpg",
+    image: "/images/products/cashew-nuts.jpg",
     imageAlt: "Premium WW320 white whole cashews"
   },
   {
     title: "Organic Soybeans",
     description: "Grade 1 – Non-GMO, Food and Feed Grade Sourced from smallholder farms in northern Ghana. Protein content ≥35%, moisture ≤12%, foreign matter ≤1%. High oil yield and suitable for human and animal consumption",
-    image: "/images/products/soybeans.jpg",
+    image: "/images/products/soya-beans.jpg",
     imageAlt: "Organic Grade 1 non-GMO soybeans"
   }
 ]
