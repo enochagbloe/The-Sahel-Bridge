@@ -115,7 +115,7 @@ export default function ProductsSection() {
           {products.map((product, index) => (
             <div
               key={index}
-              ref={(el) => cardsRef.current[index] = el}
+              ref={(el) => { cardsRef.current[index] = el; }}
               className={`transition-all duration-700 ease-out ${
                 visibleCards[index]
                   ? 'opacity-100 translate-y-0 scale-100'
